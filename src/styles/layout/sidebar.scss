@@ -1,0 +1,45 @@
+.dropdown-container {
+  display:none;
+  color: #000;
+  background-color: #ffffff;
+  //border: 0.2px solid #ccc;
+  width: 50%;
+  font-size: 1rem;
+
+  &-contain {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+
+  &-name {
+    font-weight: none;
+    color: #2b58b3;
+
+    h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  }
+
+  &-google-play-store {
+    margin: 2rem auto;
+  }
+
+  hr {
+    border: 0.1px solid #ccc;
+  }
+
+  @media screen and (min-width: 800px) {
+    & {
+      width: 30%;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    & {
+      display:block;
+    }
+  }
+}
+
