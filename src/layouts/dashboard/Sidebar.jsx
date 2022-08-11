@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import { SideBarDataOne } from "../../data/Dropdown/data";
 import { SideBarDataTwo } from "../../data/Dropdown/data";
+import '../../styles/layout/sidebar.scss';
+
 
 const DashboardSideBar = () => {
   return (
